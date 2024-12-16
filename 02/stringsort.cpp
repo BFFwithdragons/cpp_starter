@@ -11,17 +11,17 @@ int main() {
   
 
   cout << a << b << c << endl;
-  if(a[0] < b[0]) {
+  if(a < b) {
     temp = a;
     a = b;
     b = temp;
   }
-  if(a[0] < c[0]) {
+  if(a < c) {
     temp = a;
     a = c;
     c = temp;
   }
-  if(b[0] < c[0]) {
+  if(b < c) {
     temp = b;
     b = c;
     c = temp;
